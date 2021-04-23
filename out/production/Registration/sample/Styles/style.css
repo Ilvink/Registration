@@ -1,0 +1,35 @@
+.text-input{
+  -fx-text-fill: #fafafa;
+  -fx-background-color:  #2E212E;
+  -fx-border-color: #fafafa;
+  -fx-border-radius: 10;
+  -fx-padding: 10 20;
+}
+.text-input:focused{
+ -fx-border-color: #FF2B2B;
+}
+.link:hover{
+-fx-text-fill: #FF2B2B;
+}
+.button{
+-fx-background-color:  #CFA4DE;
+ -fx-border-radius: 10;
+  -fx-padding: 10 20;
+}
+.button:hover{
+-fx-translate-y: -5;
+}
+.button:pressed{
+ -fx-background-color:  #5C2D6B;
+}
+
+.scroll-pane{
+-fx-background-insert: 0;
+-fx-padding: 0;
+}
+.scroll-pane:focused{
+-fx-background-insert: 0;
+}
+.scroll-pane .corner{
+-fx-background-insert: 0;
+}
